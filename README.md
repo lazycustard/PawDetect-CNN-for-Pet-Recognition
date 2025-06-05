@@ -90,7 +90,7 @@ Class Indices: {'cats': 1, 'dogs': 0}
 🧠 Prediction: This image is a cat.
 ```
 
-![Cat Sample](images/catss.jpg)
+![Cat Sample](catss.jpg)
 *(Added this cute cat for testing, and the model predicted correctly.)*
 ---
 
