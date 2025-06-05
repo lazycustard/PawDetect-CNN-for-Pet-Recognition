@@ -1,6 +1,6 @@
 # PawDetect-CNN-for-Pet-Recognition
 
-This project demonstrates how to build and train a Convolutional Neural Network (CNN) to classify images of cats and dogs using TensorFlow and Keras in Google Colab. The dataset is stored in Google Drive and processed directly from there.
+A Convolutional Neural Network (CNN) is a deep learning model used for image classification. It extracts spatial features using convolution and pooling layers, flattens the output, and classifies using dense layers. This binary CNN model differentiates between cats and dogs, utilizing ReLU activations, max pooling, and a sigmoid output layer. The dataset is stored in Google Drive (or Google Cloud Storage) and can be processed directly from there. Training and inference are demonstrated in Google Colab, leveraging cloud-based resources.
 
 ---
 
@@ -29,7 +29,7 @@ MyDrive/
 
 ## How to Run
 
-1. Upload your dataset zip file (`dataset.zip`) to your Google Drive under `MyDrive`.
+1. Upload your dataset zip file (`dataset.zip`) to your Google Drive under `MyDrive`.(my dataset zip file was just too big to upload)
 
 2. Open the provided notebook in Google Colab.
 
