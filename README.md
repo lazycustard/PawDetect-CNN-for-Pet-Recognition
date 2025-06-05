@@ -86,10 +86,12 @@ Epoch 1/10
 ...
 Epoch 10/10
 ...
-Class Indices: {'cats': 0, 'dogs': 1}
-🧠 Prediction: This image is a dog.
+Class Indices: {'cats': 1, 'dogs': 0}
+🧠 Prediction: This image is a cat.
 ```
 
+![Cat Sample](images/catss.jpg)
+*(Added this cute cat for testing, and the model predicted correctly.)*
 ---
 
 ## YAML Representation of Example Output
@@ -100,12 +102,11 @@ example_output:
   test_images: 2000
   epochs: 10
   class_indices:
-    cats: 0
-    dogs: 1
+    cats: 1
+    dogs: 0
   sample_prediction:
-    prediction_label: dog
-    confidence_threshold: 0.5
-    message: "🧠 Prediction: This image is a dog."
+    prediction_label: cat
+    message: "🧠 Prediction: This image is a cat."
 ```
 
 ---
