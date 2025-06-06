@@ -109,7 +109,7 @@ example_output:
     message: "🧠 Prediction: This image is a cat."
 ```
 ---
-Possible Future Enhancements
+## Possible Future Enhancements
 
 *Multi-class classification: Extend the model to classify more animal types like birds, horses, etc.
 
