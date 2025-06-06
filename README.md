@@ -108,6 +108,20 @@ example_output:
     prediction_label: cat
     message: "🧠 Prediction: This image is a cat."
 ```
+---
+Possible Future Enhancements
+
+*Multi-class classification: Extend the model to classify more animal types like birds, horses, etc.
+
+*Model deployment: Deploy the model as a web app using Flask or Streamlit.
+
+*Data augmentation: Explore more aggressive augmentation strategies to improve generalization.
+
+*Performance optimization: Experiment with batch size, learning rate, or optimizers to improve accuracy and speed.
+
+*Model quantization: Convert the model for mobile or embedded deployment.
+
+Use of cloud TPU/GPU: Train on powerful hardware to speed up the training process.
 
 ---
 
